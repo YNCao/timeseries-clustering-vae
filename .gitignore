@@ -4,3 +4,6 @@
 \.ipynb_checkpoints/
 
 vrae/__pycache__/
+
+./data/UCRArchive_2018
+./data/UCRArchive_2018.zip
