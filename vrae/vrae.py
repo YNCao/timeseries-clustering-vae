@@ -31,7 +31,7 @@ class Encoder(nn.Module):
         if block == 'LSTM':
             self.model = nn.LSTM(self.number_of_features, self.hidden_size, self.hidden_layer_depth, dropout = dropout)
         elif block == 'GRU':
-            self.model = nn.GRU(self.number_of_features, self.hidden_size, self.hidden_layer_depth, dropout = dropout)
+            self.model = nn.GRU(self.number_of_features, self.hidden_size, self.hidden_layer_depth, dropout=dropout)
         else:
             raise NotImplementedError
 
